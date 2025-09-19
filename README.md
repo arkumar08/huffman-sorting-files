@@ -1,1 +1,1 @@
-# huffman-sorting-files
+# huffman-compression
