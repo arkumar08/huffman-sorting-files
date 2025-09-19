@@ -39,6 +39,7 @@ python compress.py
 - Press d to decompress → outputs filename.huf.orig
 
 ### 📊 Example Output
+```
 Processing: files/parrot.bmp
 Compression Time: 0.0542 seconds
 Decompression Time: 0.0391 seconds
@@ -47,3 +48,4 @@ Compressed Size: 198,745 bytes
 Decompressed Size: 307,254 bytes
 Compression Ratio: 64.72%
 ✅ SUCCESS: parrot.bmp decompressed correctly.
+```
