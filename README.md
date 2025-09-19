@@ -18,8 +18,27 @@ A Python implementation of Huffman coding, a classic algorithm for lossless data
   - Report compression ratio, runtime, and correctness checks
   - Supports arbitrary binary files (e.g., .bmp images tested in this project)
 
+💡 Key Learnings
+  - Implemented tree-based algorithms in Python
+  - Worked with binary data and bit-level operations
+  - Practiced algorithm analysis with time complexity and compression ratio
+  - Reinforced skills in data structures, recursion, and file I/O
 
-📊 Example Output
+### 🛠️Getting Started
+Clone the repo and navigate into the directory:
+```
+git clone https://github.com/<your-username>/huffman-compression.git
+cd huffman-compression
+```
+
+Run compression or decompression interactively:
+```
+python compress.py
+```
+- Press c to compress → outputs filename.huf
+- Press d to decompress → outputs filename.huf.orig
+
+### 📊 Example Output
 Processing: files/parrot.bmp
 Compression Time: 0.0542 seconds
 Decompression Time: 0.0391 seconds
@@ -28,9 +47,3 @@ Compressed Size: 198,745 bytes
 Decompressed Size: 307,254 bytes
 Compression Ratio: 64.72%
 ✅ SUCCESS: parrot.bmp decompressed correctly.
-
-💡 Key Learnings
-  - Implemented tree-based algorithms in Python
-  - Worked with binary data and bit-level operations
-  - Practiced algorithm analysis with time complexity and compression ratio
-  - Reinforced skills in data structures, recursion, and file I/O
