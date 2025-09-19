@@ -3,6 +3,8 @@ Huffman Compression
 
 A Python implementation of Huffman coding, a classic algorithm for lossless data compression. This project demonstrates how to compress and decompress files using Huffman trees, while also analyzing performance metrics like compression ratio and runtime.
 
+⚠️ Note: This was developed as part of CSC148: Introduction to Computer Science (University of Toronto). Some starter code and specifications were provided by the course instructors. This repository is for educational and portfolio purposes only and should not be reused for academic submission.
+
 📂 Project Structure
   - compress.py – Core compression & decompression logic:
   - Builds frequency dictionaries
